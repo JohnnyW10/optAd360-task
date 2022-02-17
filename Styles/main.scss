@@ -1,0 +1,32 @@
+$borders: 1px solid black;
+
+body {
+  margin: 0;
+
+  main {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: $borders;
+    
+
+    .paragraphBlock {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+
+      p {
+        margin-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      .paragraphBlock__paragraph {
+        &::first-letter{
+          font-size: 1.1em;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
