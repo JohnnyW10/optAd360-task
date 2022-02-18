@@ -5,7 +5,7 @@
   border: 1px solid black;
 }
 
-@keyframes identifier {}.container h3 {
+.container h3 {
   text-align: center;
 }
 
@@ -17,8 +17,24 @@
   text-align: center;
 }
 
-.container .tableBlock {
+.container #myChart {
   width: 100%;
+  min-height: 60vh;
+  background-color: #f0f0f0;
+  border-radius: 15px;
+}
+
+.container #tabelHolder {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 60vh;
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.container .tableBlock {
   margin-bottom: 50px;
 }
 
