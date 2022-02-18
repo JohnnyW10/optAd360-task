@@ -8,8 +8,7 @@ function getData() {
   let counterUnder59 = 0;
   let counterUnder69 = 0;
   let counterUnder79 = 0;
-
-
+  let chartHolder = document.getElementById('myChart');
 
   fetch('https://randomuser.me/api/?results=1000&nat=FR')
     .then(res => res.json())
@@ -30,6 +29,7 @@ function getData() {
         }
       });
       allCompartment.push(counterUnder29, counterUnder39, counterUnder49, counterUnder59, counterUnder69, counterUnder79)
+      chartHolder.style.backgroundColor = "white"
       chartt(allCompartment)
     })
     
@@ -49,9 +49,5 @@ function chartt(dataCompartment) {
       ]
     },
   })
-
 }
-
-
-
 
