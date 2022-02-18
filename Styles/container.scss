@@ -6,27 +6,36 @@ $borders: 1px solid black;
   margin-right: auto;
   border: $borders;
 
-
-
-  @keyframes identifier {
-    
-  }
-
   h3 {
     text-align: center;
   }
 
   .chartBlock {
     margin-bottom: 50px;
-
-
     h1 {
       text-align: center;
     }
   }
 
-  .tableBlock {
+  #myChart {
     width: 100%;
+    min-height: 60vh;
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+  }
+
+  #tabelHolder {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 60vh;
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+    text-align: center;
+  }
+
+
+  .tableBlock {
     margin-bottom: 50px;
 
     table {
