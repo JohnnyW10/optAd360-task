@@ -33,7 +33,7 @@ async function loadingToTableBody(url) {
 document.getElementById("BtnChart").addEventListener('click', loadingToTableHeader)
 
 function loading() {
-  let loader = document.getElementById('tabelHolder').innerHTML = `<img id="loader" src="loader.gif"/>`
+  let loader = document.getElementById('tabelHolder').innerHTML = `<img width="200px" height="200px" id="loader" src="loader.gif"/>`
 }
 
 document.getElementById("BtnChart").addEventListener('click', loading)
